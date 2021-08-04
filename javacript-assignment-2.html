@@ -1,0 +1,35 @@
+<html>
+  <head></head>
+  <body>
+<script>
+
+// JavaScript program to print all the numbers
+// divisible by 5 or 7 for a given number
+// Result generator with N
+function NumGen(n)
+{
+
+	// Iterate from 0 to N
+	for(let j = 1; j < n + 1; j++)
+	{
+
+		// Short-circuit operator is used
+		if (j % 5 == 0 || j % 7 == 0)
+			document.write(j + " ");
+	}
+	return n;
+}
+
+// Driver code
+
+	// Input goes here
+	let N = 50;
+	
+	// Iterating over generator function
+	NumGen(N);
+	
+</script>
+</body>
+</html>
+
+
